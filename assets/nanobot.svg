@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="nanobot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#243244"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dbe3ec"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#bg)"/>
+
+  <!-- ears -->
+  <path d="M36 50 L30 20 L58 36 Z" fill="url(#fur)"/>
+  <path d="M92 50 L98 20 L70 36 Z" fill="url(#fur)"/>
+
+  <!-- head -->
+  <path d="M64 32 C90 32 103 49 103 73 C103 96 86 109 64 109 C42 109 25 96 25 73 C25 49 38 32 64 32 Z" fill="url(#fur)"/>
+
+  <!-- circuit whiskers -->
+  <g stroke="#8b97a6" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M20 76 H40"/>
+    <path d="M20 85 H40"/>
+    <path d="M88 76 H108"/>
+    <path d="M88 85 H108"/>
+  </g>
+  <g fill="#8b97a6">
+    <circle cx="20" cy="76" r="2.6"/>
+    <circle cx="20" cy="85" r="2.6"/>
+    <circle cx="108" cy="76" r="2.6"/>
+    <circle cx="108" cy="85" r="2.6"/>
+  </g>
+
+  <!-- eyes -->
+  <circle cx="51" cy="70" r="7.5" fill="#0d1117"/>
+  <circle cx="77" cy="70" r="7.5" fill="#0d1117"/>
+  <circle cx="53.4" cy="67.6" r="2.3" fill="#ffffff"/>
+  <circle cx="79.4" cy="67.6" r="2.3" fill="#ffffff"/>
+
+  <!-- nose + mouth -->
+  <path d="M64 82 l-5.4 4.4 h10.8 z" fill="#f87171"/>
+  <path d="M64 86.4 v4.2 M64 90.6 C60 94 55 93 53 90 M64 90.6 C68 94 73 93 75 90"
+        stroke="#0d1117" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.85"/>
+
+  <!-- status dot: "alive" -->
+  <circle cx="103" cy="103" r="9" fill="#22c55e"/>
+  <circle cx="103" cy="103" r="9" fill="none" stroke="#0d1117" stroke-width="2.5"/>
+</svg>
