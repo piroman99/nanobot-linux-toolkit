@@ -27,7 +27,7 @@ Two independent parts:
 ## Install the launcher
 
 ```sh
-git clone https://github.com/<you>/nanobot-linux-toolkit.git
+git clone https://github.com/piroman99/nanobot-linux-toolkit.git
 cd nanobot-linux-toolkit
 ./install.sh                 # wrappers + app menu + desktop icons
 ./install.sh --no-desktop    # keep ~/Desktop clean
