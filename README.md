@@ -1,5 +1,11 @@
 # nanobot-linux-toolkit
 
+[![test](https://github.com/piroman99/nanobot-linux-toolkit/actions/workflows/test.yml/badge.svg)](https://github.com/piroman99/nanobot-linux-toolkit/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Platform: Linux](https://img.shields.io/badge/platform-Linux-lightgrey.svg)](#requirements)
+[![Shell: POSIX sh](https://img.shields.io/badge/shell-POSIX%20sh-4EAA25.svg)](#requirements)
+[![Dependencies: none](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#requirements)
+
 Small, dependency-free shell helpers for running the [nanobot](https://github.com/HKUDS/nanobot)
 personal AI agent on a Linux desktop — plus the recipe we use to keep the model
 API key out of reach of the agent's own `exec` tool.
